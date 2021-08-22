@@ -1,7 +1,7 @@
 {
   "name": "@stdlib/ndarray-base-napi-addon-arguments",
-  "version": "0.0.5",
-  "description": "C API for validating, extracting, and transforming (to native C types) function arguments provided to an ndarray N-API add-on interface.",
+  "version": "0.0.6",
+  "description": "C API for validating, extracting, and transforming (to native C types) function arguments provided to an ndarray Node-API add-on interface.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -15,7 +15,7 @@
   ],
   "main": "./lib",
   "browser": "./lib/browser.js",
-  "gypfile": true,
+  "gypfile": false,
   "directories": {
     "benchmark": "./benchmark",
     "doc": "./docs",
@@ -77,6 +77,7 @@
     "tensor",
     "napi",
     "n-api",
+    "node-api",
     "addon",
     "arguments",
     "args"

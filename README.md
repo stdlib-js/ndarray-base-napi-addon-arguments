@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> C API for validating, extracting, and transforming (to native C types) function arguments provided to an ndarray N-API add-on interface.
+> C API for validating, extracting, and transforming (to native C types) function arguments provided to an ndarray Node-API add-on interface.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -130,7 +130,7 @@ npm install @stdlib/ndarray-base-napi-addon-arguments
 
 #### stdlib_ndarray_napi_addon_arguments( env, argv, nargs, nin, \*arrays[], \*err )
 
-Validates, extracts, and transforms (to native C types) function arguments provided to an ndarray N-API add-on interface.
+Validates, extracts, and transforms (to native C types) function arguments provided to an ndarray Node-API add-on interface.
 
 ```c
 #include <node_api.h>
@@ -140,11 +140,11 @@ Validates, extracts, and transforms (to native C types) function arguments provi
 // ...
 
 /**
-* Receives JavaScript callback invocation data via N-API.
+* Receives JavaScript callback invocation data.
 *
 * @param env    environment under which the function is invoked
 * @param info   callback data
-* @return       N-API value
+* @return       Node-API value
 */
 napi_value addon( napi_env env, napi_callback_info info ) {
     napi_status status;
