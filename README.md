@@ -183,7 +183,7 @@ The function accepts the following arguments:
 -   **argv**: `[in] napi_value*` ndarray function arguments.
 -   **nargs**: `[in] int64_t` total number of expected arguments.
 -   **nin**: `[in] int64_t` number of input ndarray arguments.
--   **arrays**: `[out] struct ndarrays**` destination array for storing pointers to both input and output ndarrays.
+-   **arrays**: `[out] struct ndarray**` destination array for storing pointers to both input and output ndarrays.
 -   **err**: `[out] napi_value*` pointer for storing a JavaScript error.
 
 ```c
@@ -278,7 +278,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -304,8 +304,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
